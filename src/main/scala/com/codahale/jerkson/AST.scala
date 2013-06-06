@@ -51,7 +51,7 @@ object AST {
     }
     
     override def \\(fieldName: String): Seq[JValue] = {
-      fields.flatMap { 
+      fields.filter(v => Option(v.value).isDefined).flatMap { 
         case JField(name, value) if name == fieldName => Seq(value) ++ (value \\ fieldName)
         case JField(_, value) => value \\ fieldName
       }
