@@ -1,16 +1,14 @@
 Jerkson
 -------
 
-*Because I think you should use JSON.*
+Forked from Coda Hale's Jerkson, which has now been abandoned. Has some minor bug fixes and such but mostly the same. 
 
-Jerkson is a Scala wrapper for [Jackson](http://jackson.codehaus.org/) which
-brings Scala's ease-of-use to Jackson's features.
-
+Updated to Scala 2.10 (and soon 2.11)
 
 Requirements
 ------------
 
-* Scala 2.8.2 or 2.9.1
+* Scala 2.10.x
 * Jackson 1.9.x
 
 
