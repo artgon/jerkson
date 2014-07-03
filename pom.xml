@@ -9,12 +9,12 @@
     </prerequisites>
 
     <groupId>com.codahale</groupId>
-    <artifactId>jerkson_2.10</artifactId>
-    <version>0.6.2-Matygo</version>
+    <artifactId>jerkson_2.11</artifactId>
+    <version>0.6.3-Matygo</version>
     <name>Jerkson for Scala</name>
 
     <properties>
-        <scala.version>2.10.4</scala.version>
+        <scala.version>2.11.1</scala.version>
         <jackson.version>2.0.2</jackson.version>
     </properties>
 
